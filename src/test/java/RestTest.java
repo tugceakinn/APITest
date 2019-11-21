@@ -29,7 +29,7 @@ public class RestTest {
         System.out.println(accountId);
         Assert.assertEquals(accountId, "The Star Grand Residences (formerly Astral Residences)");
         
-        //Some comment
+        //Some comment...
     }
 
 
