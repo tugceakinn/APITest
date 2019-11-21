@@ -11,7 +11,7 @@ public class RestTest {
 
     @Test
     public void test() {
-        //this is a rest service test
+        //...
         RestAssured.baseURI = "https://maps.googleapis.com";
         Response res =
                 given().
