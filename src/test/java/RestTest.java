@@ -30,4 +30,11 @@ public class RestTest {
         Assert.assertEquals(accountId, "The Star Grand Residences (formerly Astral Residences)");
     }
 
+
+
+    @Test
+    public void test2(){
+
+    }
+
 }
