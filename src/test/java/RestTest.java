@@ -28,6 +28,8 @@ public class RestTest {
         String accountId = res.jsonPath().getString("results[1].name");
         System.out.println(accountId);
         Assert.assertEquals(accountId, "The Star Grand Residences (formerly Astral Residences)");
+        
+        //Some comment
     }
 
 }
