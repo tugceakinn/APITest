@@ -46,7 +46,7 @@ public class RestTest {
                 assertThat().statusCode(200).and().contentType(ContentType.JSON).
                 extract().response();
 
-        String responseString = res.asString();
+        //String responseString = res.asString();
         //System.out.println(responseString);
         lonasString = res.jsonPath().getString("coord.lon");
         latasString = res.jsonPath().getString("coord.lat");
